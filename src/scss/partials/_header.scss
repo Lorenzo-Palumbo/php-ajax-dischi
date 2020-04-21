@@ -1,0 +1,10 @@
+header{
+    height: 70px;
+    background-color: $secondary_bg_color;
+    display: flex;
+    align-items: center;
+    img{
+        width: 50px;
+        margin-left: 50px;
+    }
+}

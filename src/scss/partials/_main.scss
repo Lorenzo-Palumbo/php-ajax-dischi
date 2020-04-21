@@ -1,0 +1,47 @@
+.container-full{
+    background-color: $primary_bg_color;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    main{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap;
+        .card{
+            background-color: $secondary_bg_color;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 230px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            .card-img{
+                img{
+                    width: 130px;
+                    height: 130px;
+                    display: block;
+                    object-fit: cover;
+                }
+            }
+            .card-bottom{
+                h3{
+                    color: $primary_font_color;
+                    text-align: center;
+                }
+                h4{
+                    color: $secondary_font_color;
+                    text-align: center;
+                }
+                small{
+                    color: $primary_font_color;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
